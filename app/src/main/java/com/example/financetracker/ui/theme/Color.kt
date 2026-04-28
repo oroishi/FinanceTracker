@@ -2,8 +2,8 @@ package com.example.financetracker.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val BrandPrimary = Color(0xFF2E7D5B)
-val BrandPrimaryDark = Color(0xFF63D1A1)
+val BrandPrimary = Color(0xFFD33982)
+val BrandPrimaryDark = Color(0xFFF5A8CB)
 val BrandSecondary = Color(0xFF7C5295)
 val BrandSecondaryDark = Color(0xFFCFA9E5)
 val BrandTertiary = Color(0xFFE0884E)
@@ -15,7 +15,7 @@ val Expense = Color(0xFFC0392B)
 val ExpenseDark = Color(0xFFFF7B6B)
 
 val ChartPalette = listOf(
-    Color(0xFF2E7D5B),
+    Color(0xFFD33982),
     Color(0xFF7C5295),
     Color(0xFFE0884E),
     Color(0xFF2E86AB),
@@ -25,7 +25,7 @@ val ChartPalette = listOf(
     Color(0xFF16A085),
     Color(0xFFD35400),
     Color(0xFF2980B9),
-    Color(0xFFC2185B),
+    Color(0xFF2E7D5B),
     Color(0xFF6D4C41),
     Color(0xFF455A64)
 )
