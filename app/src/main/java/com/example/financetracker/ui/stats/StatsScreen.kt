@@ -98,7 +98,7 @@ fun StatsScreen(
                         } else {
                             val slices = state.expenseByCategory.mapIndexed { i, (cat, value) ->
                                 PieSlice(
-                                    label = "${cat.emoji} ${cat.displayName}",
+                                    label = cat.displayName,
                                     value = value,
                                     color = colorForIndex(i)
                                 )

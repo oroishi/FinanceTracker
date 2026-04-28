@@ -125,7 +125,7 @@ fun AddTransactionScreen(
                         FilterChip(
                             selected = state.category == cat,
                             onClick = { viewModel.setCategory(cat) },
-                            label = { Text("${cat.emoji} ${cat.displayName}") },
+                            label = { Text(cat.displayName) },
                             modifier = Modifier.fillMaxWidth()
                         )
                     }

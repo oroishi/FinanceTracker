@@ -155,7 +155,7 @@ fun DashboardScreen(
                         } else {
                             val slices = state.categoryBreakdown.mapIndexed { i, (cat, value) ->
                                 PieSlice(
-                                    label = "${cat.emoji} ${cat.displayName}",
+                                    label = cat.displayName,
                                     value = value,
                                     color = colorForIndex(i)
                                 )

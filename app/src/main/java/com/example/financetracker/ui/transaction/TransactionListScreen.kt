@@ -171,7 +171,7 @@ private fun CategoryDropdown(
     var expanded by remember { mutableStateOf(false) }
     val label = when (selected.size) {
         0 -> "Все категории"
-        1 -> selected.first().let { "${it.emoji} ${it.displayName}" }
+        1 -> selected.first().displayName
         else -> "${selected.size} ${pluralCategories(selected.size)}"
     }
 
@@ -207,7 +207,7 @@ private fun CategoryDropdown(
             HorizontalDivider()
             categories.forEach { cat ->
                 DropdownMenuItem(
-                    text = { Text("${cat.emoji} ${cat.displayName}") },
+                    text = { Text(cat.displayName) },
                     leadingIcon = {
                         Checkbox(
                             checked = cat in selected,
